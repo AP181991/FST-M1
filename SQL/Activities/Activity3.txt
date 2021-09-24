@@ -1,0 +1,10 @@
+REM   Script: SQL_Activity3
+REM   SQL_Activity3
+
+
+SELECT salesman_id, salesman_city FROM salesman;
+
+SELECT * FROM salesman WHERE salesman_city='London';
+
+SELECT salesman_id, commission FROM salesman WHERE salesman_name='Lauson Hen';
+
